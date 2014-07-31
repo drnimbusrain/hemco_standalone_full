@@ -47,7 +47,7 @@ NCU_LIB   :=$(NCU_ROOT)/lib
 # Variables for the HEMCO package
 HCO_DIR   :=HEMCO
 HCO_ROOT  :=$(ROOT)/$(HCO_DIR)
-HCO_REPO  :="git://git.as.harvard.edu/bmy/HEMCO"
+HCO_REPO  :="https://github.com/christophkeller/hemco_standalone_full"
 HCO_CLONE :="git clone $(HCO_REPO) $(HCO_ROOT)"
 HCO_BIN   :=$(HCO_ROOT)/bin
 HCO_DOC   :=$(HCO_ROOT)/doc
