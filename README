@@ -36,7 +36,7 @@ The build sequence involves the following steps:
 (2)  Setting the proper environment variables.  See this section of the 
      HEMCO installation guide for more information:
 
-     http://wiki.geos-chem.org/HEMCO_installation_guide#Setting environment variables for HEMCO installation
+     http://wiki.geos-chem.org/HEMCO_installation_guide#Setting_environment_variables_for_HEMCO_installation
 
 
 (3)  Installing HEMCO and the NcdfUtilities package.  See this section of the
