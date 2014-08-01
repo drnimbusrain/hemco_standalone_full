@@ -5,7 +5,7 @@ ckeller@seas.harvard.edu and     geos-chem-support@as.harvard.edu
 
 
 Description:
-==============================================================================
+------------
 
 The hemco_standalone_full/ repository contains the makefile that will 
 automatically download and build the following codes:
@@ -15,7 +15,7 @@ automatically download and build the following codes:
 
 
 Installation:
-==============================================================================
+-------------
 
 Please see our HEMCO Installation Guide for complete installation instructions:
 
@@ -26,36 +26,33 @@ can be either the newer (netCDF-4) or older (netCDF-classic) versions.
 
 The build sequence involves the following steps:
 
-(1) Making sure you have a version of the netCDF library installed on your
-    system.  See this section of the HEMCO installation guide for more 
-    information:
+(1)  Making sure you have a version of the netCDF library installed on your
+     system.  See this section of the HEMCO installation guide for more 
+     information:
 
-       http://wiki.geos-chem.org/HEMCO_installation_guide#Installing_the_netCDF_libraries 
-
-
-(2) Setting the proper environment variables.  See this section of the 
-    HEMCO installation guide for more information:
-
-       http://wiki.geos-chem.org/HEMCO_installation_guide#Setting environment variables for HEMCO installation
+      http://wiki.geos-chem.org/HEMCO_installation_guide#Installing_the_netCDF_libraries 
 
 
-(3) Installing HEMCO and the NcdfUtilities package.  See this section of the
-    HEMCO installation for more information:
+(2)  Setting the proper environment variables.  See this section of the 
+     HEMCO installation guide for more information:
 
-       http://wiki.geos-chem.org/HEMCO_installation_guide#Installing_HEMCO_and_the_NcdfUtilities_packages 
+     http://wiki.geos-chem.org/HEMCO_installation_guide#Setting environment variables for HEMCO installation
 
-    As described in the above link, the installation sequence involves 
-    a couple of simple steps:
 
-       git clone https://github.com/christophkeller/hemco_standalone_full
-       cd hemco_standalone_full
-       make >& log
+(3)  Installing HEMCO and the NcdfUtilities package.  See this section of the
+     HEMCO installation for more information:
+
+     http://wiki.geos-chem.org/HEMCO_installation_guide#Installing_HEMCO_and_the_NcdfUtilities_packages 
+
+
+(3a) As described in the above link, the installation sequence involves 
+     a couple of simple steps:
+
+     git clone https://github.com/christophkeller/hemco_standalone_full
+     cd hemco_standalone_full
+     make >& log
 
 Upon successful installation, an HEMCO example simulation is performed. 
 The resulting log file and ncdf emission field are written into the 
-directory:
-
-    HEMCO/examples/example1/output/
-
-
+directory: HEMCO/examples/example1/output/
 
