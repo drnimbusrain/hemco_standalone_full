@@ -50,6 +50,8 @@ HCO_DIR   :=HEMCO
 HCO_ROOT  :=$(ROOT)/$(HCO_DIR)
 HCO_REPO  :="https://github.com/christophkeller/hemco_standalone"
 HCO_CLONE :="git clone $(HCO_REPO) $(HCO_ROOT)"
+SRC_REPO  :="https://github.com/christophkeller/hemco"
+SRC_CLONE :="git clone $(SRC_REPO) $(HCO_ROOT)/src"
 HCO_BIN   :=$(HCO_ROOT)/bin
 HCO_DOC   :=$(HCO_ROOT)/doc
 HCO_HELP  :=$(HCO_ROOT)/help
@@ -171,6 +173,7 @@ clone_hemco:
 	   echo '##################################################';         \
 	else                                                                  \
 	   bash -c $(HCO_CLONE)                                             &&\
+	   bash -c $(SRC_CLONE)                                             &&\
 	   cd $(HCO_ROOT)                                                   &&\
 	   touch $(NCU_DIR).clone                                           &&\
 	   echo '##################################################';         \
