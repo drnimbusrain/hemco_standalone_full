@@ -143,7 +143,6 @@ install_ncu:
 	else                                                                  \
 	   cd $(NCU_ROOT)                                                   &&\
 	   $(MAKE) lib                                                      &&\
-           $(MAKE) doc                                                      &&\
 	   $(MAKE) check                                                    &&\
 	   touch $(NCU_DIR).install                                         &&\
 	   echo '##################################################';         \
@@ -205,7 +204,6 @@ install_hemco:
 	   cd $(HCO_ROOT)                                                   &&\
 	   $(MAKE) lib                                                        \
 	       NCU_BIN=$(NCU_BIN) NCU_LIB=$(NCU_LIB) NCU_MOD=$(NCU_MOD)     &&\
-	   $(MAKE) doc                                                      &&\
 	   $(MAKE) check                                                      \
                NCU_BIN=$(NCU_BIN) NCU_LIB=$(NCU_LIB) NCU_MOD=$(NCU_MOD)     &&\
 	   touch $(HCO_DIR).install                                         &&\
