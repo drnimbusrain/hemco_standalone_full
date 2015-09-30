@@ -37,7 +37,7 @@ ROOT      :=$(CURDIR)
 # Variables for the NcdfUtilities package
 NCU_DIR   :=NcdfUtil
 NCU_ROOT  :=$(ROOT)/$(NCU_DIR)
-NCU_REPO  :="https://github.com/GCST/NcdfUtilities/"
+NCU_REPO  :="https://bitbucket.org/gcst/ncdfutilities"
 NCU_CLONE :="git clone $(NCU_REPO) $(NCU_ROOT)"
 NCU_BIN   :=$(NCU_ROOT)/bin
 NCU_DOC   :=$(NCU_ROOT)/doc
