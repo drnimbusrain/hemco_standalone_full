@@ -37,7 +37,7 @@ ROOT      :=$(CURDIR)
 # Variables for the NcdfUtilities package
 NCU_DIR   :=NcdfUtil
 NCU_ROOT  :=$(ROOT)/$(NCU_DIR)
-NCU_REPO  :="https://bitbucket.org/gcst/ncdfutilities"
+NCU_REPO  :="https://github.com/geoschem/ncdfutil"
 NCU_CLONE :="git clone $(NCU_REPO) $(NCU_ROOT)"
 NCU_BIN   :=$(NCU_ROOT)/bin
 NCU_DOC   :=$(NCU_ROOT)/doc
@@ -48,9 +48,9 @@ NCU_LIB   :=$(NCU_ROOT)/lib
 # Variables for the HEMCO package
 HCO_DIR   :=HEMCO
 HCO_ROOT  :=$(ROOT)/$(HCO_DIR)
-HCO_REPO  :="https://github.com/christophkeller/hemco_standalone"
+HCO_REPO  :="https://github.com/noaa-oar-arl/hemco_standalone"
 HCO_CLONE :="git clone $(HCO_REPO) $(HCO_ROOT)"
-SRC_REPO  :="https://github.com/christophkeller/hemco"
+SRC_REPO  :="https://github.com/noaa-oar-arl/hemco"
 SRC_CLONE :="git clone $(SRC_REPO) $(HCO_ROOT)/src"
 HCO_BIN   :=$(HCO_ROOT)/bin
 HCO_DOC   :=$(HCO_ROOT)/doc
